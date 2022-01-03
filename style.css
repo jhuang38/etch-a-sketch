@@ -66,6 +66,9 @@ body {
     gap: 8px;
 }
 
+/*
+there is probably a cleaner way to make a 64x64 grid than this, but unfortunately i could not find how
+*/
 .canvas {
     height: 80vh; 
     width: 80vh; 
