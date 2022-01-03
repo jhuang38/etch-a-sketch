@@ -57,7 +57,7 @@ function drawColor() {
     this.style.cssText = `background-color: ${mouseColor}`;
 }
 
-for (let i = 1; i <= 16 * 16; ++i) {
+for (let i = 1; i <= 64 * 64; ++i) {
     const newDiv = document.createElement(`div`);
     newDiv.classList.add(`cell`);
     newDiv.classList.add(`cell-${i}`);
